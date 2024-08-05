@@ -1,0 +1,53 @@
+.card {
+  display: flex;
+  border: 1px solid #e5e5e5;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+  font-size: 40px;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 20px;
+}
+
+.description {
+  color: #475569;
+}
+
+.form-close-icon-container {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.success {
+  color: #2dca73;
+}
+
+.error {
+  color: #ff0b37;
+}
+
+.warning {
+  color: #ffb800;
+}
+
+.info {
+  color: #0f81e0;
+}
